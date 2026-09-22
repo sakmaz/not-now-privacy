@@ -1,12 +1,12 @@
 # Privacy Policy
 
-Not Now (NoNo) • Izak van Zyl
+Not Now (NoNo)
 
-Last updated: 21 September 2026
+Last updated: 22 September 2026
 
 ## What the app does
 
-Not Now helps you commit to blocking websites on your iPhone. This policy describes the app and its Screen Time monitor extension. The copy included in the app is readable offline, including during a blocking session.
+Not Now (NoNo) helps you commit to blocking websites on your iPhone. This policy describes the app and its Screen Time monitor extension. The copy included in the app is readable offline, including during a blocking session.
 
 ## Data kept on your device
 
@@ -24,7 +24,7 @@ Apple's operating system, backups and any diagnostics you choose to share are go
 
 Blocking requires your individual Screen Time authorisation. You can revoke it in iOS Settings; doing so can stop website blocking and deletion protection. Revocation does not erase the saved commitment. The app can restore a retained commitment when access is granted again and the app reconciles its state.
 
-Optional deletion protection restricts deletion of all apps, not only Not Now. Enabling it requires in-app consent. Turning it off in the app requires requesting release, waiting at least 48 hours of verified elapsed time, then confirming. Restarts or clock uncertainty can lengthen the wait. Website commitments are separate.
+Optional deletion protection restricts deletion of all apps, not only Not Now (NoNo). It is off on first install. Enabling it requires in-app consent. Turning it off in the app requires requesting release, waiting at least 6 hours of verified elapsed time, then confirming. Restarts or clock uncertainty can lengthen the wait. Website commitments are separate.
 
 Viewing the private block list uses Apple's Face ID, Touch ID or device-passcode authentication. The app receives an authentication result, not your biometric data or passcode. This viewing lock does not add separate encryption to the saved block list or hide information shown by iOS Settings or browsers.
 
@@ -38,11 +38,11 @@ Deleting the app, when iOS permits it, removes its installed app data under iOS 
 
 The public policy page is hosted by GitHub Pages. GitHub logs and stores visitors’ IP addresses for security purposes, whether or not they are signed in to GitHub. GitHub’s handling of website visitor data is described in its privacy statement: https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement
 
-This policy page contains no analytics or tracking scripts. Reading the bundled copy inside Not Now does not contact GitHub, open a website or change blocking rules. Visiting the public page in a browser makes a request to GitHub; this does not send your app’s block list or commitment data.
+This policy page contains no analytics or tracking scripts. Reading the bundled copy inside Not Now (NoNo) does not contact GitHub, open a website or change blocking rules. Visiting the public page in a browser makes a request to GitHub; this does not send your app’s block list or commitment data.
 
-## Contact
+## Privacy enquiries
 
-For privacy questions about Not Now (NoNo), contact Izak van Zyl at sakmaz@proton.me. If you email, the developer receives your email address and whatever you choose to include, and uses that information to respond to your enquiry. Email is handled by the respective email providers. Please do not include your private block list unless it is necessary for your question.
+For privacy enquiries about Not Now (NoNo), contact I van Zyl at sakmaz@proton.me. If you email, the developer receives your email address and whatever you choose to include, and uses that information to respond to your enquiry. Email is handled by the respective email providers. Please do not include your private block list unless it is necessary for your question.
 
 ## Policy updates
 
