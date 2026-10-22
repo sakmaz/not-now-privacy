@@ -2,17 +2,17 @@
 
 Not Now (NoNo)
 
-Last updated: 22 September 2026
+Last updated: 22 October 2026
 
 ## What the app does
 
-Not Now (NoNo) helps you commit to blocking websites on your iPhone. This policy describes the app and its Screen Time monitor extension. The copy included in the app is readable offline, including during a blocking session.
+Not Now (NoNo) helps you commit to blocking websites and supported apps on your iPhone. This policy describes the app and its Screen Time monitor extension. The copy included in the app is readable offline, including during a blocking session.
 
 ## Data kept on your device
 
-The app saves the website domains you enter, your current or most recently saved commitment (including its identifier, timing, status and committed domains), Screen Time authorisation status, and any saved blocking-reliability message. Older commitments may also retain Apple's opaque website-selection tokens.
+The app saves the website domains you enter, your current or most recently saved commitment (including its identifier, timing, status and committed domains and apps), Screen Time authorisation status, and any saved blocking-reliability message. For each selected app, it saves the app’s bundle identifier and display name in your editable list and committed selection. These identify which supported apps to restrict, including if installed later. The app offers a fixed catalogue of supported apps; it does not scan or save an inventory of installed apps. Older commitments may also retain Apple's opaque website-selection tokens.
 
-It also saves your deletion-protection preference and release-request timing, plus elapsed-time checkpoints and a boot identifier used to maintain timers. The app and its monitor share this information through a local App Group container so restrictions can continue when the app is closed.
+The list-privacy preference is saved locally on your device. It also saves your deletion-protection preference and release-request timing, plus elapsed-time checkpoints and a boot identifier used to maintain timers. The app and its monitor share this information through a local App Group container so restrictions can continue when the app is closed.
 
 ## Collection and sharing
 
@@ -22,15 +22,15 @@ Apple's operating system, backups and any diagnostics you choose to share are go
 
 ## Screen Time and local authentication
 
-Blocking requires your individual Screen Time authorisation. You can revoke it in iOS Settings; doing so can stop website blocking and deletion protection. Revocation does not erase the saved commitment. The app can restore a retained commitment when access is granted again and the app reconciles its state.
+Blocking requires your individual Screen Time authorisation. You can revoke it in iOS Settings; doing so can stop website/app blocking and deletion protection. Revocation does not erase the saved commitment. The app can restore a retained commitment when access is granted again and the app reconciles its state.
 
-Optional deletion protection restricts deletion of all apps, not only Not Now (NoNo). It is off on first install. Enabling it requires in-app consent. Turning it off in the app requires requesting release, waiting at least 6 hours of verified elapsed time, then confirming. Restarts or clock uncertainty can lengthen the wait. Website commitments are separate.
+Optional deletion protection restricts deletion of all apps, not only Not Now (NoNo). It is off on first install. Enabling it requires in-app consent. Turning it off in the app requires requesting release, waiting 6 hours plus 1 hour per detected phone restart, then confirming. Time powered off counts toward the wait. Reopening the app adds no penalty; multiple restarts between app launches can only be detected as one. Elapsed time across restarts is calculated using the device date. Website and app commitments are separate.
 
-Viewing the private block list uses Apple's Face ID, Touch ID or device-passcode authentication. The app receives an authentication result, not your biometric data or passcode. This viewing lock does not add separate encryption to the saved block list or hide information shown by iOS Settings or browsers.
+Blocklist protection is optional and offered on first use. When enabled, viewing a populated block list uses Apple's Face ID, Touch ID or device-passcode authentication; an empty list opens without authentication. You can change this preference in Settings. The app receives an authentication result, not your biometric data or passcode. This viewing lock does not add separate encryption to the saved block list or hide information shown by iOS Settings or browsers.
 
 ## Retention and your choices
 
-Saved data persists across app launches. Ending a timer or revoking Screen Time access does not automatically erase it. When no commitment remains active or retained, you can remove websites from the editable block list; a previously saved commitment may still contain its domains until replaced. There is no in-app erase-all control.
+Saved data persists across app launches. Ending a timer or revoking Screen Time access does not automatically erase it. When no commitment remains active or retained, you can remove websites and apps from the editable block list; a previously saved commitment may still contain its domains and app identifiers/display names until replaced. There is no in-app erase-all control.
 
 Deleting the app, when iOS permits it, removes its installed app data under iOS storage rules. Offloading is not the same as deleting; backups may retain earlier data and are managed through Apple's settings. The developer has no server copy of your in-app block list or commitment data to retrieve or erase.
 
@@ -42,7 +42,7 @@ This policy page contains no analytics or tracking scripts. Reading the bundled 
 
 ## Privacy enquiries
 
-For privacy enquiries about Not Now (NoNo), contact I van Zyl at sakmaz@proton.me. If you email, the developer receives your email address and whatever you choose to include, and uses that information to respond to your enquiry. Email is handled by the respective email providers. Please do not include your private block list unless it is necessary for your question.
+For privacy enquiries about Not Now (NoNo), contact sakmaz at sakmaz@proton.me. If you email, the developer receives your email address and whatever you choose to include, and uses that information to respond to your enquiry. Email is handled by the respective email providers. Please do not include your private block list unless it is necessary for your question.
 
 ## Policy updates
 
